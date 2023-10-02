@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "adder",
+  "description": "Example shared function",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "author": "",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "@tsconfig/node18": "^18.2.2"
+  }
+}
