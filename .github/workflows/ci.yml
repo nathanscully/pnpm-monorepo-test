@@ -10,7 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          path: "myrepo"
+          path: myrepo
       - uses: DeterminateSystems/nix-installer-action@main
       - uses: DeterminateSystems/magic-nix-cache-action@main
-      - run: nix build .#server
+      - name: "Build it"
+        run: nix build .#server
+        working-directory: myrepo
