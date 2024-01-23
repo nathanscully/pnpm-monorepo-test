@@ -1,3 +1,9 @@
 {
-  "name": "pnpm-monorepo-test"
+  "name": "pnpm-monorepo-test",
+  "private": true,
+  "version": "0.0.0",
+   "type": "module",
+  "scripts": {
+    "deploy-server": "pnpm --filter=server build && pnpm --filter=server --prod deploy deploy-server"
+  }
 }

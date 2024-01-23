@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 importers:
 
   .: {}
@@ -71,12 +75,6 @@ importers:
       '@tsconfig/node18':
         specifier: ^18.2.2
         version: 18.2.2
-    devDependencies:
-      typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
-
-  packages/types:
     devDependencies:
       typescript:
         specifier: ^5.2.2
