@@ -19,7 +19,7 @@
           copyNodeModules = true;
           copyPnpmStore = true;
           script = "deploy-server";
-          distDir = "deploy-server";
+          distDir = ".deploy/deploy-server";
         };
 
         server-image = pkgs.dockerTools.buildImage {

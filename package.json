@@ -4,6 +4,6 @@
   "version": "0.0.0",
    "type": "module",
   "scripts": {
-    "deploy-server": "pnpm --filter=server... build && pnpm --filter=server --prod deploy deploy-server"
+    "deploy-server": "pnpm --filter=server... build && pnpm --filter=server --prod deploy .deploy/deploy-server"
   }
 }
