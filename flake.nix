@@ -22,14 +22,23 @@
           distDir = "deploy-server";
         };
 
+        server-image = pkgs.dockerTools.buildImage {
+          name = "pnpm-mono-server";
+          tag = "latest";
+          copyToRoot = [ pkgs.curl pkgs.coreutils server pkgs.bash ];
+          config = {
+            Cmd = [ "${pkgs.nodejs}" "${server}/dist/main/index.js" ];
+          };
+        };
+
         # Development environment
         devShell = mkShell {
           name = "pnpm-monorepo-test";
-          nativeBuildInputs = [ nodejs typescript nodePackages.pnpm ];
+          nativeBuildInputs = [ nodejs typescript nodePackages.pnpm dive ed ];
         };
 
         packages = {
-          inherit server;
+          inherit server server-image;
           default = server;
         };
       });
