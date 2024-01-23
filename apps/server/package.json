@@ -1,11 +1,11 @@
 {
   "name": "server",
+  "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js"
   },
   "devDependencies": {
-    "@tsconfig/node18": "^18.2.2",
     "@types/node": "^20.8.0",
     "typescript": "^5.2.2"
   },

@@ -16,6 +16,8 @@
         server = mkPnpmPackage {
           src = ./.;
           installInPlace = true;
+          copyNodeModules = true;
+          copyPnpmStore = true;
           script = "deploy-server";
           distDir = "deploy-server";
         };

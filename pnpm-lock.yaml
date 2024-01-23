@@ -60,9 +60,6 @@ importers:
         specifier: ^4.23.2
         version: 4.23.2
     devDependencies:
-      '@tsconfig/node18':
-        specifier: ^18.2.2
-        version: 18.2.2
       '@types/node':
         specifier: ^20.8.0
         version: 20.8.0
@@ -71,10 +68,6 @@ importers:
         version: 5.2.2
 
   packages/adder:
-    dependencies:
-      '@tsconfig/node18':
-        specifier: ^18.2.2
-        version: 18.2.2
     devDependencies:
       typescript:
         specifier: ^5.2.2
@@ -329,9 +322,6 @@ packages:
     dependencies:
       tslib: 2.6.2
     dev: false
-
-  /@tsconfig/node18@18.2.2:
-    resolution: {integrity: sha512-d6McJeGsuoRlwWZmVIeE8CUA27lu6jLjvv1JzqmpsytOYYbVi1tHZEnwCNVOXnj4pyLvneZlFlpXUK+X9wBWyw==}
 
   /@types/json5@0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}

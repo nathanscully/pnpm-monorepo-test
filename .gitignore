@@ -41,3 +41,4 @@ out
 !**/.vscode/launch.template.json
 !**/.vscode/extensions.json
 /deploy-server/
+/result

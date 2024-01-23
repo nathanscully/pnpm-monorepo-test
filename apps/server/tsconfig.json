@@ -1,9 +1,19 @@
-{"extends": "@tsconfig/node18/tsconfig.json",
- "compilerOptions": {
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["es2022"],
+    "module": "es2022",
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "types": [
+      "@types/node"
+    ],
     "outDir": "dist",
-    "sourceMap": true
+    "resolveJsonModule": true
   },
-  "include": [
-    "**/*.ts"
-  ]
+  "include": ["**/*.ts"]
 }
