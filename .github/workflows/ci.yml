@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-        with:
-          path: myrepo
       - uses: DeterminateSystems/nix-installer-action@main
       - uses: DeterminateSystems/magic-nix-cache-action@main
+      - name: Create folder
+        run: |
+          mkdir -p deploy
       - name: "Build it"
         run: nix build .#server -vv
-        working-directory: myrepo
