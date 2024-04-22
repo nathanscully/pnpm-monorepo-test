@@ -13,7 +13,7 @@
         # Development environment
         devShell = mkShell {
           name = "pnpm-monorepo-test";
-          nativeBuildInputs = [ nodejs typescript nodePackages.pnpm  ];
+          nativeBuildInputs = [ nodejs typescript nodePackages.pnpm turbo  ];
         };
       }
     );
