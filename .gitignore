@@ -42,3 +42,4 @@ out
 !**/.vscode/extensions.json
 /result
 /deploy/
+/.turbo/

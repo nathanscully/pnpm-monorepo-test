@@ -5,12 +5,12 @@
     "start": "node dist/index.js"
   },
   "devDependencies": {
-    "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^20.8.0",
-    "typescript": "^5.2.2"
+    "@tsconfig/node18": "^18.2.4",
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
     "adder": "workspace:^",
-    "fastify": "^4.23.2"
+    "fastify": "^4.26.2"
   }
 }

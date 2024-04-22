@@ -7,10 +7,10 @@
   },
   "author": "",
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "typescript": "^5.4.5"
   },
   "main": "dist/index.js",
   "dependencies": {
-    "@tsconfig/node18": "^18.2.2"
+    "@tsconfig/node18": "^18.2.4"
   }
 }

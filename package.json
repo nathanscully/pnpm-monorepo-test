@@ -1,3 +1,6 @@
 {
-  "name": "pnpm-monorepo-test"
+  "name": "pnpm-monorepo-test",
+  "devDependencies": {
+    "turbo": "^1.13.2"
+  }
 }
