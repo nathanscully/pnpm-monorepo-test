@@ -11,6 +11,8 @@
   },
   "main": "dist/index.js",
   "dependencies": {
-    "@tsconfig/node18": "^18.2.4"
+    "@tsconfig/node20": "^20.1.4",
+
+    "@biomejs/biome": "1.7.3"
   }
 }

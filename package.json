@@ -1,6 +1,24 @@
 {
   "name": "pnpm-monorepo-test",
+  "description": "Playground for a pnpm monorepo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "biome check --apply .",
+    "build": "turbo run build --cache-dir=.turbo",
+    "start": "pnpm --stream -parallel -r start",
+    "deps:fix": "syncpack fix-mismatches",
+    "deps:format": "syncpack format",
+    "deps:list": "syncpack list-mismatches"
+  },
+  "engines": {
+    "node": ">=20.11",
+    "pnpm": ">=9"
+  },
   "devDependencies": {
-    "turbo": "^1.13.2"
+    "@biomejs/biome": "1.7.3",
+    "typescript": "^5.4.5",
+    "turbo": "^1.13.2",
+    "syncpack": "12.3.2"
   }
 }
