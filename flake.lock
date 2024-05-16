@@ -18,13 +18,28 @@
         "type": "github"
       }
     },
+    "nathanscully": {
+      "locked": {
+        "lastModified": 1715079520,
+        "narHash": "sha256-5Dpp+ummLix6cahxcJK0lOdWzgIg95WNT6smctjcRwY=",
+        "owner": "nathanscully",
+        "repo": "nixpkgs",
+        "rev": "fcc5243e3b15cda8e738a5bb7c2b70dab83480ff",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nathanscully",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1713537308,
-        "narHash": "sha256-XtTSSIB2DA6tOv+l0FhvfDMiyCmhoRbNB+0SeInZkbk=",
+        "lastModified": 1715534503,
+        "narHash": "sha256-5ZSVkFadZbFP1THataCaSf0JH2cAH3S29hU9rrxTEqk=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "5c24cf2f0a12ad855f444c30b2421d044120c66f",
+        "rev": "2057814051972fa1453ddfb0d98badbea9b83c06",
         "type": "github"
       },
       "original": {
@@ -37,6 +52,7 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
+        "nathanscully": "nathanscully",
         "nixpkgs": "nixpkgs"
       }
     },
