@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "lint": "biome check --apply .",
-    "build": "turbo run build --cache-dir=.turbo",
+    "build": "pnpm -r build",
     "start": "pnpm --stream -parallel -r start",
     "deps:fix": "syncpack fix-mismatches",
     "deps:format": "syncpack format",

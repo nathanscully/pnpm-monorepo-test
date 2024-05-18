@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "fetchPnpmDeps": {
+      "locked": {
+        "lastModified": 1715202383,
+        "narHash": "sha256-UKcsK+Ga4I8japeB5Op3RuDLVOVerBLjNce3SefaqiI=",
+        "owner": "scrumplex",
+        "repo": "nixpkgs",
+        "rev": "3f964fc457e5e3eaea9b125e92a6033f2754d349",
+        "type": "github"
+      },
+      "original": {
+        "owner": "scrumplex",
+        "ref": "pkgs/build-support/fetchPnpmDeps",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -35,11 +51,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1715534503,
-        "narHash": "sha256-5ZSVkFadZbFP1THataCaSf0JH2cAH3S29hU9rrxTEqk=",
+        "lastModified": 1715787315,
+        "narHash": "sha256-cYApT0NXJfqBkKcci7D9Kr4CBYZKOQKDYA23q8XNuWg=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "2057814051972fa1453ddfb0d98badbea9b83c06",
+        "rev": "33d1e753c82ffc557b4a585c77de43d4c922ebb5",
         "type": "github"
       },
       "original": {
@@ -51,6 +67,7 @@
     },
     "root": {
       "inputs": {
+        "fetchPnpmDeps": "fetchPnpmDeps",
         "flake-utils": "flake-utils",
         "nathanscully": "nathanscully",
         "nixpkgs": "nixpkgs"

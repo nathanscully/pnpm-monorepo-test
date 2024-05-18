@@ -7,12 +7,9 @@
   },
   "author": "",
   "devDependencies": {
-    "typescript": "^5.4.5"
-  },
-  "main": "dist/index.js",
-  "dependencies": {
+    "typescript": "^5.4.5",
     "@tsconfig/node20": "^20.1.4",
-
     "@biomejs/biome": "1.7.3"
-  }
+  },
+  "main": "dist/index.js"
 }
